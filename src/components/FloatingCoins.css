@@ -1,0 +1,159 @@
+/* Container */
+.floating-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+  perspective: 1200px;
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.coin-wrapper {
+  position: absolute;
+
+  transition: all 2.5s cubic-bezier(0.25, 1, 0.5, 1);
+
+  will-change: top, left, transform, opacity;
+  opacity: 1;
+}
+
+.initial-state .coin-wrapper {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) scale(0) rotate(180deg) !important;
+  opacity: 0;
+}
+
+.coin-wrapper img {
+  width: 100%;
+  opacity: 0.3;
+  filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.15));
+
+  animation:
+    orbit-float 20s infinite linear,
+    slow-rotate 30s infinite linear;
+}
+
+.item-4 img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(255, 165, 0, 0.4);
+}
+
+@keyframes orbit-float {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(40px, -50px);
+  }
+  50% {
+    transform: translate(0, -100px);
+  }
+  75% {
+    transform: translate(-40px, -50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes slow-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Solana */
+.item-1 {
+  top: 15%;
+  left: 10%;
+  width: 80px;
+}
+.item-1 img {
+  animation-duration: 25s, 30s;
+}
+
+/* Doge */
+.item-2 {
+  bottom: 20%;
+  right: 15%;
+  width: 100px;
+}
+.item-2 img {
+  animation-duration: 35s, 40s;
+  animation-direction: reverse, normal;
+}
+
+/* Pepe */
+.item-3 {
+  top: 20%;
+  right: 20%;
+  width: 90px;
+}
+.item-3 img {
+  animation-duration: 28s, 35s;
+  animation-delay: 1s;
+}
+
+/* Bonk (Center Bottom) */
+.item-4 {
+  bottom: 1%;
+  left: 45%;
+  width: 110px;
+}
+.item-4 img {
+  animation-duration: 40s, 45s;
+  animation-direction: reverse, reverse;
+}
+
+/* BTC */
+.item-5 {
+  top: 10%;
+  left: 50%;
+  width: 60px;
+}
+.item-5 img {
+  animation-duration: 45s, 50s;
+}
+
+/* WIF (Top Right) */
+.item-6 {
+  top: 15%;
+  right: 3%;
+  width: 70px;
+}
+
+.item-6 img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(224, 149, 9, 0.4);
+  animation-duration: 40s, 45s;
+  animation-direction: reverse, reverse;
+}
+
+/* Shiba (Left Bottom) */
+.item-7 {
+  bottom: 25%;
+  left: 15%;
+  width: 85px;
+}
+.item-7 img {
+  animation-duration: 30s, 30s;
+  animation-direction: reverse, normal;
+}
+
+/* USDC */
+.item-8 {
+  top: 45%;
+  left: 5%;
+  width: 65px;
+}
+.item-8 img {
+  animation-duration: 50s, 60s;
+}
