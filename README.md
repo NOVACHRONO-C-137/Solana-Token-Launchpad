@@ -9,7 +9,7 @@ This project works on devnet, using **Token_Program_2022** [TokenkegQfeZyiNwAJbN
 
 Make sure you have phantom downloaded in your extensions and have some [Devnet_Solana](https://faucet.solana.com/) in it.
 
-![Phantom Wallet](./screenshots/connect-wallet.png)
+![Phantom Wallet](./screenshots/phantom.png)
 
 ### Step 1: Connect Your Wallet
 Click the "Select Wallet" button in the top right corner. Ensure your wallet (Phantom/Backpack) is set to **Solana Devnet**.
@@ -56,6 +56,7 @@ Click **Create Token**. Your wallet will pop up asking you to sign the transacti
 ## ⚠️ Disclaimer
 
 This is a **Devnet** project for educational purposes. Tokens created here do not have real financial value.
+
 
 
 
