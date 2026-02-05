@@ -1,7 +1,7 @@
 # Solana Token Launchpad 
 
 Web app designed to demonstrate the full lifecycle of deploying **SPL Tokens** on the Solana Blockchain.
-This project works on devnet, using **Token_Program_2022** [TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA](https://solscan.io/account/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA?cluster=devnet/) , this program helps to add metadata to the token.
+This project works on devnet, using **Token_Program_2022** [TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA](https://solscan.io/account/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA?cluster=devnet/) , which helps to add metadata to the token.
 
 ---
 
@@ -35,7 +35,7 @@ Click **Create Token**. Your wallet will pop up asking you to sign the transacti
 
 ---
 
-### **Blockchain & Metaplex Libraries**
+### **Libraries**
 * **`@metaplex-foundation/umi`**: The core framework for Solana interactions.
 * **`@metaplex-foundation/umi-bundle-defaults`**: Provides default plugins (Http, Http2, etc.) for connecting to the Solana network.
 * **`@metaplex-foundation/mpl-token-metadata`**: Handles the creation of Fungible Assets, metadata attachment, and minting logic (Token-2022 compatible).
@@ -53,6 +53,7 @@ Click **Create Token**. Your wallet will pop up asking you to sign the transacti
 
 ## ⚠️ Disclaimer
 
-This is a **Devnet** project intended for educational purposes. Tokens created here do not have real financial value. The goal is to bridge the gap between understanding smart contract theory and actual Mainnet deployment.
+This is a **Devnet** project for educational purposes. Tokens created here do not have real financial value.
+
 
 
