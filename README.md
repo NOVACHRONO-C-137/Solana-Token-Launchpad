@@ -15,21 +15,13 @@ Make sure you have phantom downloaded in your extensions and have some [Devnet_S
 Click the "Select Wallet" button in the top right corner. Ensure your wallet (Phantom/Backpack) is set to **Solana Devnet**.
 
 ![Connect Wallet Screen](./screenshots/connect-wallet.png)
-*(Place your screenshot here showing the wallet button)*
 
-### Step 2: Define Your Token
-Enter the **Name**, **Symbol**, and **Initial Supply** for your token.
+### Step 2: Upload Metadata
+Enter the **Name**, **Symbol**, and **Initial Supply** for your token. Select an image for your token. The app will automatically upload this to **IPFS** (InterPlanetary File System) to create a permanent, decentralized link.
 
-![Token Form](./screenshots/form-filled.png)
-*(Place your screenshot here showing the form filled out)*
+![form](./screenshots/upload.png)
 
-### Step 3: Upload Metadata
-Select an image for your token. The app will automatically upload this to **IPFS** (InterPlanetary File System) to create a permanent, decentralized link.
-
-![Image Upload](./screenshots/image-upload.png)
-*(Place your screenshot here showing the image preview)*
-
-### Step 4: Launch & Sign
+### Step 4: Create token and deployment
 Click **Create Token**. Your wallet will pop up asking you to sign the transaction. This mints the token and sends the supply to your wallet.
 
 ![Success Modal](./screenshots/success-modal.png)
@@ -56,6 +48,7 @@ Click **Create Token**. Your wallet will pop up asking you to sign the transacti
 ## ⚠️ Disclaimer
 
 This is a **Devnet** project for educational purposes. Tokens created here do not have real financial value.
+
 
 
 
