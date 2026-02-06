@@ -21,11 +21,16 @@ Enter the **Name**, **Symbol**, and **Initial Supply** for your token. Select an
 
 ![form](./screenshots/upload.png)
 
-### Step 4: Create token and deployment
-Click **Create Token**. Your wallet will pop up asking you to sign the transaction. This mints the token and sends the supply to your wallet.
+### Step 4: Signature Confirmation and Deployment
+Click **Create Token**. Your wallet will pop up asking you to sign the transaction and deployment of token on devnet blockchain will be done.
 
-![Success Modal](./screenshots/success-modal.png)
-*(Place your screenshot here showing the 'Token Deployed' success popup)*
+![SignToken](./screenshots/signtoken.png)
+
+### Step 5: Check your wallet
+You can see **Your Token** in your wallet with the metadata attached to it.
+
+![Tokenin](./screenshots/tokenin.png)
+
 
 ---
 
@@ -48,6 +53,7 @@ Click **Create Token**. Your wallet will pop up asking you to sign the transacti
 ## ⚠️ Disclaimer
 
 This is a **Devnet** project for educational purposes. Tokens created here do not have real financial value.
+
 
 
 
