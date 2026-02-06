@@ -5,7 +5,7 @@ This project works on devnet, using **Token_Program_2022** [TokenkegQfeZyiNwAJbN
 
 ---
 
-## 📸 How to Use the App
+## How to Use
 
 Make sure you have phantom downloaded in your extensions and have some [Devnet_Solana](https://faucet.solana.com/) in it.
 
@@ -34,13 +34,13 @@ You can see **Your Token** in your wallet with the metadata attached to it.
 
 ---
 
-### **Libraries**
+## Libraries Used:
 * **`@metaplex-foundation/umi`**: The core framework for Solana interactions.
 * **`@metaplex-foundation/umi-bundle-defaults`**: Provides default plugins (Http, Http2, etc.) for connecting to the Solana network.
 * **`@metaplex-foundation/mpl-token-metadata`**: Handles the creation of Fungible Assets, metadata attachment, and minting logic (Token-2022 compatible).
 * **`@metaplex-foundation/umi-signer-wallet-adapters`**: Bridges the Umi framework with the standard Solana Wallet Adapter to allow user signing.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Frontend:** React.js + Vite
 * **Blockchain SDK:** Metaplex Umi & MPL Token Metadata
@@ -53,6 +53,7 @@ You can see **Your Token** in your wallet with the metadata attached to it.
 ## ⚠️ Disclaimer
 
 This is a **Devnet** project for educational purposes. Tokens created here do not have real financial value.
+
 
 
 
