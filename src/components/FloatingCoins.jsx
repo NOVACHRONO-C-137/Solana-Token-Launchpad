@@ -68,3 +68,5 @@ export function FloatingCoins() {
     </div>
   );
 }
+
+//very bad
