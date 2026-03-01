@@ -28,63 +28,42 @@ export function FloatingCoins() {
     >
       {/* Coin 1: Solana */}
       <div className="coin-wrapper item-1">
-        <img
-          src="https://cryptologos.cc/logos/solana-sol-logo.png"
-          alt="Solana"
-        />
+        <img src="/solana.png" alt="Solana" />
       </div>
 
       {/* Coin 2: Doge */}
       <div className="coin-wrapper item-2">
-        <img
-          src="https://cryptologos.cc/logos/dogecoin-doge-logo.png"
-          alt="Doge"
-        />
+        <img src="/doge.png" alt="Doge" />
       </div>
 
       {/* Coin 3: Pepe */}
       <div className="coin-wrapper item-3">
-        <img src="https://cryptologos.cc/logos/pepe-pepe-logo.png" alt="Pepe" />
+        <img src="/pepe.png" alt="Pepe" />
       </div>
 
       {/* Coin 4: Bonk */}
       <div className="coin-wrapper item-4">
-        <img
-          src="https://s2.coinmarketcap.com/static/img/coins/200x200/23095.png"
-          alt="Bonk"
-        />
+        <img src="/bonk.png" alt="Bonk" />
       </div>
 
       {/* Coin 5: BTC */}
       <div className="coin-wrapper item-5">
-        <img
-          src="https://cryptologos.cc/logos/bitcoin-btc-logo.png"
-          alt="BTC"
-        />
+        <img src="/btc.png" alt="BTC" />
       </div>
 
       {/* Coin 6: WIF */}
       <div className="coin-wrapper item-6">
-        <img
-          src="https://s2.coinmarketcap.com/static/img/coins/200x200/28752.png"
-          alt="WIF"
-        />
+        <img src="/wif.png" alt="WIF" />
       </div>
 
       {/* Coin 7: SHIB */}
       <div className="coin-wrapper item-7">
-        <img
-          src="https://cryptologos.cc/logos/shiba-inu-shib-logo.png"
-          alt="SHIB"
-        />
+        <img src="/shib.png" alt="SHIB" />
       </div>
 
       {/* Coin 8: USDC */}
       <div className="coin-wrapper item-8">
-        <img
-          src="https://cryptologos.cc/logos/usd-coin-usdc-logo.png"
-          alt="USDC"
-        />
+        <img src="/usdc.png" alt="USDC" />
       </div>
     </div>
   );

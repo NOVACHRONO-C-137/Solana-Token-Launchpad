@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
+
 import "./App.css";
 
 import { Launchpad } from "./components/Launchpad";
@@ -41,8 +42,9 @@ function App() {
     document.documentElement.setAttribute("data-theme", theme);
   }, [theme]);
 
+  const endpoint = useMemo(() => "https://api.devnet.solana.com", []);
   return (
-    <ConnectionProvider endpoint={"https://api.devnet.solana.com"}>
+    <ConnectionProvider endpoint={endpoint}>
       <WalletProvider wallets={[]} autoConnect>
         <WalletModalProvider>
           <div className="app-container">
